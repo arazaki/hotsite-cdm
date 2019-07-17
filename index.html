@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Home | Samuel Adams</title>
+    <title>Samuel Adams</title>
     <link rel="shortcut icon" href="/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606">
     <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606">
     <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=008654519ce705ac7bc44303a9014606">
@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=008654519ce705ac7bc44303a9014606">
     <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=008654519ce705ac7bc44303a9014606">
     <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=008654519ce705ac7bc44303a9014606">
-    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/7deb160b-5b7a-4e66-b898-14b1bf4f7d52">
+    <link type="text/css" rel="stylesheet" href="/styles.css">
     <meta name="description" content="Brewed inefficiently since 1984.">
     <meta property="og:title" content="Home">
     <meta property="og:description" content="Brewed inefficiently since 1984.">
@@ -22,13 +22,54 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Home">
     <meta name="twitter:description" content="Brewed inefficiently since 1984.">
+    <script src="https://kit.fontawesome.com/a443db73a7.js"></script>
 </head>
 
 <body>
-    <div>
-        Hello
+    <header class="bg-dark">
+        <div class="container">
 
-    </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0">
+                <a class="navbar-brand p-0" href="#">
+                    <img src="/images/logo.jpeg" height="80" class="d-inline-block align-top" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Opção 1</a>
+                                <a class="dropdown-item" href="#">Opção 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Assinatura de Cervejas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kits até 60% OFF</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 hot--search-form position-relative bg-light">
+                        <input class="form-control border-0 h-100" type="search" height="60px"
+                            placeholder="Busque cervejas, estilos e mais..." aria-label="Search">
+                        <button class="btn btn-outline-success float-right h-100 border-0 my-2 my-sm-0 px-3"
+                            type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
 </body>
 
 </html>
