@@ -21,7 +21,7 @@ body{
 .s1--container{
     background: url("/images/samuel-bg.png");
     background-size: cover;
-    background-position-x: -400px;
+    background-position: top right;
 }
 
 .s4--box{
@@ -37,6 +37,11 @@ body{
 }
 
 @media (max-width: 992px) {
+.s1--container{
+    background: url("/images/samuel-bg.png");
+    background-size: cover;
+    background-position: top right 20%;
+}
 .s4--box{
     border: 1px solid black;
     margin: 50px 10px;
