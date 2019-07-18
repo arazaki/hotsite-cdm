@@ -32,8 +32,11 @@ body{
 .s5--box{
     border: 1px solid black;
     margin-top: 100px;
-    width: 420px;
     height: 320px;
+}
+
+.s5--container{
+    max-width: 700px;
 }
 
 @media (max-width: 992px) {
@@ -51,8 +54,16 @@ body{
     border: 1px solid black;
     margin-top: -10px;
     margin-bottom: 80px;
-    width: 420px;
     height: 320px;
+    font-size: 16px;
+}
+
+.s5--box-one{
+    margin-left: 50px;
+}
+
+.s5--box-two{
+    margin-right: 50px;
 }
 }
 
@@ -158,10 +169,26 @@ section{
     }
 
   .man--img{
-    height: 200px;
+    height: 10rem;
     margin: 0;
     margin-top: -35px;
-    margin-left: 220px;
+    margin-left: 200px;
+}
+.four-pack--img{
+    width: 100%;
+}
+
+.s5--img-one{
+    max-width: 120px;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.s5--img-two{
+    max-width: 120px;
+    margin-top: -50px;
+    margin-right: 0px;
+    margin-left: -15px;
 }
 }
 
@@ -214,18 +241,16 @@ background: rgba(0, 0, 50, 0.7);
     width: 300px;
 }
 
+.s5--text{
+     
+}
 @media (max-width: 992px) {
 .p-block--one{   
     width: 330px;
     margin-top: -20px;
     margin-left: 0;
 }
+.s5--text{
+    max-width: 275px;
 }
-
-/* Temp */
-.square{
-    height: 100%;
-    min-height: 50px;
-    width: 100%;
-    min-width: 50px;
 }
