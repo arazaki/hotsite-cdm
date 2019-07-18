@@ -8,7 +8,7 @@ body{
     padding: 0 !important;
   }
 
-/* Containers */
+/* Containers and Boxes */
 
   .header{
     max-width: 1240px;
@@ -16,6 +16,12 @@ body{
 
 .container{
     padding: 0;
+}
+
+.s1--container{
+    background: url("/images/samuel-bg.png");
+    background-size: cover;
+    background-position-x: -400px;
 }
 
 .s4--box{
