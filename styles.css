@@ -1,5 +1,220 @@
 @import "./css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+/* Containers */
+
+  .header{
+    max-width: 1240px;
+}
+
+.container{
+    padding: 0;
+}
+
+.s4--box{
+    border: 1px solid black;
+    margin: 5px 120px;
+}
+
+.s5--box{
+    border: 1px solid black;
+    margin-top: 100px;
+    width: 420px;
+    height: 320px;
+}
+
+@media (max-width: 992px) {
+.s4--box{
+    border: 1px solid black;
+    margin: 50px 10px;
+    padding-bottom: 20px; 
+}
+.s5--box{
+    border: 1px solid black;
+    margin-top: -10px;
+    margin-bottom: 80px;
+    width: 420px;
+    height: 320px;
+}
+}
+
+/* Navbar */
 .hot--search-form{
     height: 60px;
+}
+
+/* Sections */
+section{
+    padding: 0;
+    margin: 0;
+}
+
+.section--two{
+    height: 650px;
+    background: url("/images/s2-bg.png");
+    background-repeat: repeat-x;
+}
+
+.section--three{
+    height: 500px;
+}
+
+.section--five{
+}
+
+.hr-divider{
+    background-color: black;
+    height: 60px;
+}
+
+@media (max-width: 992px) {
+.section--two{
+    height: 890px;
+}
+}
+
+/* Buttons */
+.s1--button{
+    font-weight: bold;
+    padding: 10px 90px;
+}
+
+/* Images */
+
+.badge--img{
+    max-width: 183px;
+    width: 100%;
+}
+
+.twob-lg img{
+    width: 300px;
+    height: 600px;
+    margin-bottom: -100px;
+    margin-left: 60px;
+}
+
+.pint--img{
+    height: 400px;
+    margin-left: 30px;
+}
+
+.man--img{
+    height: 300px;
+    margin-top: -20px;
+    margin-left: -120px;
+}
+
+.pint-beer--img{
+    width: 400px;
+    margin-left: 40px;
+    box-shadow: 15px 15px rgba(0, 0, 100, 1);;
+}
+
+.half-pint--img{
+    margin-top: -80px;
+    margin-left: -10px;
+    box-shadow: -15px 15px rgba(0, 0, 100, 1);;
+}
+
+.s5--img-one{
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.s5--img-two{
+    margin-top: -50px;
+    margin-right: -50px;
+}
+
+@media (max-width: 992px) {
+  .s2--item{
+      align-self: center;
+  }
+  .s2--item__above{
+      z-index: 10;
+  }
+  .pint--img{
+    height: 400px;
+    margin: 0;
+    margin-top: -50px;
+    }
+
+  .man--img{
+    height: 200px;
+    margin: 0;
+    margin-top: -35px;
+    margin-left: 220px;
+}
+}
+
+/* Texts */
+
+.slogan{
+    
+}
+
+.slogan h3{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 29px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    width: 300px;
+}
+
+.p-block{
+background: rgba(0, 0, 50, 0.7);
+}
+
+.p-block--one{
+    color: white;   
+    width: 330px;
+    margin-top: 280px;
+    margin-left: -150px;
+}
+
+.p-block--two{
+    color: white;  
+    width: 400px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.s4--price{
+    font-weight: bold;
+    margin: 0;
+}
+
+.s4--price-details{
+}
+
+.s5--title{
+    font-family: 'Oswald', sans-serif;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 900;
+    width: 300px;
+}
+
+@media (max-width: 992px) {
+.p-block--one{   
+    width: 330px;
+    margin-top: -20px;
+    margin-left: 0;
+}
+}
+
+/* Temp */
+.square{
+    height: 100%;
+    min-height: 50px;
+    width: 100%;
+    min-width: 50px;
 }
